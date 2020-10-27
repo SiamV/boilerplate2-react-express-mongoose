@@ -6,7 +6,6 @@ const MainMenu = () => {
     return (
         <nav>
             <NavLink to={'/articles'}>Articles</NavLink>
-            <NavLink to={'/login'}>Login</NavLink>
         </nav>
     )
 }
