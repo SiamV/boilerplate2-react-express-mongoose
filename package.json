@@ -2,6 +2,7 @@
   "name": "react-express-custom",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "license": "MIT",
   "babel": {
     "presets": [
@@ -10,8 +11,8 @@
     ]
   },
   "scripts": {
-    "build": "webpack -p --mode production",
-    "dev": "webpack-dev-server --mode development --config ./webpack.dev.config.js --hot"
+    "build": "webpack -p --mode production ./webpack.config.сjs ",
+    "dev": "webpack-dev-server --mode development --config ./webpack.dev.config.сjs --hot"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
