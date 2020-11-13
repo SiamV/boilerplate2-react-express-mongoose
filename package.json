@@ -1,7 +1,7 @@
 {
   "name": "react-express-custom",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "license": "MIT",
   "babel": {
@@ -11,7 +11,7 @@
     ]
   },
   "scripts": {
-    "build": "webpack -p --mode production ./webpack.config.сjs ",
+    "build": "webpack -p --mode production --config webpack.config.cjs",
     "dev": "webpack-dev-server --mode development --config ./webpack.dev.config.сjs --hot"
   },
   "dependencies": {
